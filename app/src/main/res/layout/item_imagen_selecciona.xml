@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo1"
+    android:id="@+id/ImagenItem">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/item_imagen"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/logo_abeja"
+                android:layout_width="match_parent"
+                android:background="@drawable/fondo1"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btnEliminar"
+                android:layout_width="49dp"
+                android:layout_height="44dp"
+                android:layout_alignParentEnd="true"
+                android:padding="10dp"
+                android:src="@drawable/eliminar" />
+        </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

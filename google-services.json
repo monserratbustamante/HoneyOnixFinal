@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "361752021224",
+    "project_id": "honeyonix-a97ce",
+    "storage_bucket": "honeyonix-a97ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361752021224:android:039f0e5458a9e132cae15d",
+        "android_client_info": {
+          "package_name": "com.example.honeyonix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361752021224-ibj508mo8eprmtlm67j4h4dgl6ov4nch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.honeyonix",
+            "certificate_hash": "1aecc40cc7b27507f6e5efe6493471fe8f6413c4"
+          }
+        },
+        {
+          "client_id": "361752021224-jbjscf5m9hhbj3l0o1g94q13khni1d9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADWOz5w8nHvRUkxBfs78KrvPy1r5BZxKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361752021224-jbjscf5m9hhbj3l0o1g94q13khni1d9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#6D6969</color>
+
+    <color name="yellow_1">#D1C083</color>
+    <color name="yellow_2">#ffc808</color>
+    <color name="yellow_3">#ffc809</color>
+    <color name="menu_background">#D1C083</color> <!-- Color de fondo del menú -->
+    <color name="menu_item_text">#FFFFFF</color>   <!-- Color del texto de los ítems -->
+</resources>
