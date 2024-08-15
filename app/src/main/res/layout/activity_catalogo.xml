@@ -27,7 +27,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="127dp"
                     android:background="@drawable/colm"
                     android:orientation="vertical"
                     android:paddingStart="24dp"
@@ -38,36 +38,21 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="48dp">
 
-                        <TextView
-                            android:id="@+id/textview2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Bienvenido"
-                            android:textColor="@color/black"
-                            android:textSize="20sp"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
                         <!-- Ajustar tamaño de texto y padding -->
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <EditText
-                        android:id="@+id/editTextText"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="24dp"
-                        android:background="@drawable/blanco"
-                        android:drawableStart="@drawable/lupa"
-                        android:drawablePadding="8dp"
-                        android:ems="10"
-                        android:hint="@string/Buscar..."
-                        android:inputType="text"
-                        android:padding="8dp"
-                        android:textColor="@color/grey"
-                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="291dp"
+                        android:layout_height="62dp"
+                        android:layout_marginStart="16dp"
+                        android:text="Bienvenido"
+                        android:textColor="@color/black"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+
                 </LinearLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -80,15 +65,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
 
-                    <ProgressBar
-                        android:id="@+id/progressBarBanner"
-                        style="?android:attr/progressBarStyle"
+                    <ImageView
+                        android:id="@+id/logoImageView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:src="@drawable/logo_abeja"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                       />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <LinearLayout
@@ -104,18 +91,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Categorias"
+                        android:text="Productos"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/testview8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ver mas"
-                        android:textColor="@color/black" />
-                </LinearLayout>
+                     </LinearLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -136,6 +117,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="8dp"
+                        android:textColor="@color/black"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintBottom_toBottomOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -271,7 +253,7 @@
 
                         <LinearLayout
                             android:layout_width="0dp"
-                            android:id="@+id/Carrito"
+                            android:id="@+id/Perfil"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
@@ -281,13 +263,13 @@
                                 android:id="@+id/image1"
                                 android:layout_width="22dp"
                                 android:layout_height="22dp"
-                                android:src="@drawable/btn_2" />
+                                android:src="@drawable/btn_5" />
 
                             <TextView
                                 android:id="@+id/text1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Carrito"
+                                android:text="Contacto"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
                                 android:textSize="10sp"

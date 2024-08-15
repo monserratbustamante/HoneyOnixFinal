@@ -1,27 +1,26 @@
 package com.example.honeyonix
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.honeyonix.databinding.ActivityCarritoBinding
 
 class CarritoActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityCarritoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_carrito)
+        val btnWhatsApp = findViewById<Button>(R.id.btnWhatsApp)
 
-        binding = ActivityCarritoBinding.inflate(layoutInflater)
-        setContentView(binding.root)
 
-        binding.regresar1.setOnClickListener {
-            startActivity(Intent(this,CatalogoActivity ::class.java))
-            finish()
+        btnWhatsApp.setOnClickListener {
+            val phoneNumber = "+2211479338" // Número de teléfono con código de país
+            val message = "Hola, me gustaría obtener más información."
+
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse("https://wa.me/$phoneNumber?text=${Uri.encode(message)}")
+            startActivity(intent)
         }
-
-       /* binding.FinaliarCompra.setOnClickListener {
-            startActivity(Intent(this, PagoActivity::class.java))
-            finish()
-        }*/
     }
 }

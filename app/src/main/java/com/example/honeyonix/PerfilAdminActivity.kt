@@ -56,8 +56,9 @@ class PerfilAdminActivity : AppCompatActivity() {
         }
 
         backButton.setOnClickListener {
-            finish() // Go back to the previous activity
+            startActivity(Intent(this, CatalogoActivity::class.java))
         }
+
     }
 
     private fun signOut() {

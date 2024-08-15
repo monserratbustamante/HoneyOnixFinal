@@ -15,6 +15,21 @@
         android:theme="@style/Theme.HoneyOnix"
         tools:targetApi="31">
         <activity
+            android:name=".carrito2"
+            android:exported="false" />
+        <activity
+            android:name=".MostrarProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ItemProducto"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoVista"
+            android:exported="false" />
+        <activity
+            android:name=".BuscarProducto"
+            android:exported="false" />
+        <activity
             android:name=".RecycleView"
             android:exported="false" />
         <activity

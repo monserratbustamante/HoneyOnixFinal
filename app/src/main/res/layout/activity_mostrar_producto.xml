@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo1">
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="100dp"
+     android:id="@+id/imageViewimage"/>
+        <TextView
+            android:id="@+id/nombreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Producto"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/precioTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/cantidadEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/montoTotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto Total: "
+        android:layout_marginTop="16dp"/>
+
+    <Button
+            android:id="@+id/whatsapp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contactar por WhatsApp"/>
+
+    </LinearLayout>
